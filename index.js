@@ -58,7 +58,6 @@ let saveUserForm = (event)=>{
 };
 
 window.onload = function () {
-    
     const today = new Date();
     const minDate = new Date(today.getFullYear() - 55, today.getMonth(), today.getDate());
     const maxDate = new Date(today.getFullYear() - 18, today.getMonth(), today.getDate());
